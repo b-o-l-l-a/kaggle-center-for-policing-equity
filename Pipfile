@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 pandas = "*"
+requests = "*"
+jupyter = "*"
+geopandas = "*"
+matplotlib = "*"
+descartes = "*"
 
 [dev-packages]
 
