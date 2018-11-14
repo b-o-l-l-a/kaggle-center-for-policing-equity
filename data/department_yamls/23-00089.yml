@@ -1,0 +1,26 @@
+police_csv_columns:
+    date: INCIDENT_DATE
+    incident_id: INCIDENT_UNIQUE_IDENTIFIER
+    incident_reason: INCIDENT_REASON
+    incident_reason_detailed: CHARGE
+    officer_age: OFFICER_AGE
+    officer_gender: OFFICER_GENDER
+    officer_id: OFFICER_ID
+    officer_injuries_detail: OFFICER_DETAILS
+    officer_race: OFFICER_RACE
+    officer_yrs_experience: OFFICER_YEARS_ON_FORCE
+    reason_for_force: REASON_FOR_FORCE    
+    subject_age: SUBJECT_AGE
+    subject_gender: SUBJECT_GENDER
+    subject_injured: SUBJECT_INJURY
+    subject_injuries_detail: SUBJECT_DETAILS.1
+    subject_race: SUBJECT_RACT
+    type_of_force_used: TYPE_OF_FORCE_USED
+    
+police_csv_config:
+    skip_first_row: true
+    header_row_idx: 0
+    use_of_force_file: true
+    date_format: '%m/%d/%y %H:%M'
+    city: Indianapolis
+    state: IN

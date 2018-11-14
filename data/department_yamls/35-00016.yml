@@ -1,0 +1,44 @@
+police_csv_columns:
+    address_or_intersection: Address
+    charge_code:
+    cross_street:
+    date: Date
+    encounter_type:
+    force_effective:
+    incident_id: 'Case #'
+    incident_reason: 'Incident Type'
+    incident_reason_detailed:
+    latitude: Lat
+    longitude: Lon
+    number_of_suspects: 'Number of Suspects Involved'
+    number_officers_involved: 'Number of Officers Involved'
+    officer_age: 'Officer Age'
+    officer_death: 'Fatal (Officer)'
+    officer_ethnicity: 'Ethnicity'
+    officer_gender: 'Officer Gender'
+    officer_id:
+    officer_injured: 'Officer Hit'
+    officer_injuries_detail:
+    officer_race: 'Officer Race'
+    officer_yrs_experience: 'Officer Tenure'
+    reason_for_force:  
+    reason_for_force_detailed:
+    search_conducted:
+    search_conducted_person:
+    search_conducted_vehicle:
+    search_reason:
+    subject_age: 'Suspect Age'
+    subject_death: 'Fatal'
+    subject_gender: 'Suspect Gender'
+    subject_injured: 'Suspect Hit'
+    subject_race: 'Suspect Race'
+    subject_weapon_possessed: "Suspect's Weapon"
+    type_of_force_used:
+    weapon_or_tool_used:   
+police_csv_config:
+    skip_first_row: false
+    header_row_idx: 1
+    use_of_force_file: true
+    date_format: '%m/%d/%y'
+    city: Orlando
+    state: FL

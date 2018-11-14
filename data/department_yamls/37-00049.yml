@@ -1,0 +1,57 @@
+police_csv_columns:
+    address_or_intersection: LOCATION_FULL_STREET_ADDRESS_OR_INTERSECTION
+    charge_code:
+    cross_street:
+    date: INCIDENT_DATE
+    encounter_type:
+    force_effective:
+    incident_id: 
+    incident_reason: INCIDENT_REASON
+    incident_reason_detailed: SUBJECT_OFFENSE
+    latitude: LOCATION_LATITUDE
+    longitude: LOCATION_LONGITUDE
+    number_of_suspects:
+    number_officers_involved:
+    officer_age:
+    officer_death:
+    officer_ethnicity:
+    officer_gender: OFFICER_GENDER
+    officer_id: OFFICER_ID
+    officer_injured: OFFICER_INJURY
+    officer_injuries_detail: OFFICER_INJURY_TYPE
+    officer_race: OFFICER_RACE
+    officer_yrs_experience: OFFICER_YEARS_ON_FORCE
+    reason_for_force: REASON_FOR_FORCE
+    reason_for_force_detailed:
+    search_conducted:
+    search_conducted_person:
+    search_conducted_vehicle:
+    search_reason:
+    subject_age:
+    subject_death:
+    subject_description: SUBJECT_DESCRIPTION
+    subject_gender: SUBJECT_GENDER
+    subject_id: SUBJECT_ID
+    subject_injured:
+    subject_injuries_detail: SUBJECT_INJURY_TYPE
+    subject_race: SUBJECT_RACE
+    subject_weapon_possessed:
+    type_of_force_used:
+        - TYPE_OF_FORCE_USED1
+        - TYPE_OF_FORCE_USED2
+        - TYPE_OF_FORCE_USED3
+        - TYPE_OF_FORCE_USED4
+        - TYPE_OF_FORCE_USED5
+        - TYPE_OF_FORCE_USED6
+        - TYPE_OF_FORCE_USED7
+        - TYPE_OF_FORCE_USED8
+        - TYPE_OF_FORCE_USED9
+        - TYPE_OF_FORCE_USED10
+    weapon_or_tool_used:   
+police_csv_config:
+    skip_first_row: true
+    header_row_idx: 0
+    use_of_force_file: true
+    date_format: '%m/%d/%y'
+    city: Dallas
+    state: TX

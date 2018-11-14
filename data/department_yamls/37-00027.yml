@@ -1,0 +1,45 @@
+police_csv_columns:
+    address_or_intersection: 'Geolocation'
+    charge_code:
+    cross_street:
+    date: 'Date Occurred'
+    encounter_type:
+    force_effective:
+    incident_id: 'Primary Key'
+    incident_reason: 'Nature of Contact'
+    incident_reason_detailed:
+    latitude: Latitude
+    longitude: Longitude
+    number_of_suspects:
+    number_officers_involved:
+    officer_age:
+    officer_death:
+    officer_ethnicity:
+    officer_gender:
+    officer_id:
+    officer_injured:
+    officer_injuries_detail: 'Effect on Officer'
+    officer_race:
+    officer_yrs_experience: 'Officer Yrs of Service'
+    reason_for_force: 'Reason Desc'
+    reason_for_force_detailed: 'Subject Resistance'
+    search_conducted:
+    search_conducted_person:
+    search_conducted_vehicle:
+    search_reason:
+    subject_age:
+    subject_death:
+    subject_gender: 'Subject Sex'
+    subject_injured:
+    subject_injuries_detail: 'Subject Effects'
+    subject_race: 'Race'
+    subject_weapon_possessed:
+    type_of_force_used: 'Weapon Used 1'
+    weapon_or_tool_used:   
+police_csv_config:
+    skip_first_row: false
+    header_row_idx: 1
+    use_of_force_file: true
+    date_format: '%m/%d/%Y'
+    city: Austin
+    state: TX

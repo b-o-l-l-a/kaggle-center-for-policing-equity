@@ -1,0 +1,19 @@
+police_csv_columns:
+    date: INCIDENT_DATE
+    incident_id: INCIDENT_UNIQUE_IDENTIFIER
+    latitude: LOCATION_LATITUDE
+    longitude: LOCATION_LONGITUDE
+    reason_for_force: REASON_FOR_FORCE
+    subject_age: SUBJECT_AGE
+    subject_gender: SUBJECT_GENDER
+    subject_injured: SUBJECT_INJURY
+    subject_race: SUBJECT_RACE
+    type_of_force_used: TYPE_OF_FORCE_USED
+    weapon_or_tool_used: WEAPON_OR_TOOL_USED
+police_csv_config:
+    skip_first_row: true
+    header_row_idx: 0
+    use_of_force_file: true
+    date_format: '%Y-%m-%d'
+    city: Minneapolis
+    state: MN

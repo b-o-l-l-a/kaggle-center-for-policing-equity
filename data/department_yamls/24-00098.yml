@@ -1,0 +1,34 @@
+police_csv_columns:
+    address_or_intersection:
+    charge_code:
+    cross_street:
+    date: INCIDENT_DATE
+    encounter_type: 
+    force_effective:
+    incident_id: 
+    incident_reason: INCIDENT_REASON
+    incident_reason_detailed: 
+    latitude: LOCATION_LATITUDE
+    longitude: LOCATION_LONGITUDE
+    number_of_suspects:
+    number_officers_involved:
+    reason_for_force: 
+    reason_for_force_detailed:
+    search_conducted:
+    search_conducted_person: SEARCH_CONDUCTED_PERSON
+    search_conducted_vehicle: SEARCH_CONDUCTED_VEHICLE
+    search_reason:
+    subject_age:
+    subject_gender: SUBJECT_GENDER
+    subject_injured: 
+    subject_race: SUBJECT_RACE
+    subject_weapon_possessed:
+    type_of_force_used:
+    weapon_or_tool_used:   
+police_csv_config:
+    skip_first_row: true
+    header_row_idx: 0
+    use_of_force_file: false
+    date_format: '%m/%d/%y %H:%M'
+    city: 'St. Paul'
+    state: MN

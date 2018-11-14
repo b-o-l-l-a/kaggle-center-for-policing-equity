@@ -1,0 +1,46 @@
+police_csv_columns:
+    address_or_intersection: LOCATION_FULL_STREET_ADDRESS_OR_INTERSECTION
+    charge_code:
+    cross_street:
+    date: INCIDENT_DATE
+    encounter_type:
+    force_effective:
+    incident_id: INCIDENT_UNIQUE_IDENTIFIER
+    incident_reason: INCIDENT_REASON
+    incident_reason_detailed: CRIME_TYPE
+    latitude: 
+    longitude: 
+    number_of_suspects:
+    number_officers_involved:
+    officer_age:
+    officer_death:
+    officer_ethnicity:
+    officer_gender:
+    officer_id:
+    officer_injured:
+    officer_injuries_detail:
+    officer_race:
+    officer_yrs_experience:
+    reason_for_force: 
+    reason_for_force_detailed:
+    search_conducted:
+    search_conducted_person:
+    search_conducted_vehicle:
+    search_reason:
+    subject_age:
+    subject_death:
+    subject_gender:
+    subject_id:
+    subject_injured:
+    subject_injuries_detail: 
+    subject_race:
+    subject_weapon_possessed:
+    type_of_force_used:
+    weapon_or_tool_used:   
+police_csv_config:
+    skip_first_row: true
+    header_row_idx: 0
+    use_of_force_file: false
+    date_format: '%m/%d/%y %H:%M'
+    city: Oakland
+    state: CA

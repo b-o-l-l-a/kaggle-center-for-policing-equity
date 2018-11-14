@@ -1,0 +1,22 @@
+police_csv_columns:
+    address_or_intersection: LOCATION_FULL_STREET_ADDRESS_OR_INTERSECTION
+    date: INCIDENT_DATE
+    encounter_type: UNKNOWN_FIELD_TYPE
+    incident_id: INCIDENT_UNIQUE_IDENTIFIER
+    incident_reason: INCIDENT_REASON
+    incident_reason_detailed: INCIDENT_REASON.1
+    officer_age: OFFICER_AGE
+    officer_id: OFFICER_ID
+    officer_race: OFFICER_RACE
+    search_conducted: SEARCH_CONDUCTED
+    search_reason: SEARCH_REASON
+    subject_gender: SUBJECT_GENDER
+    subject_priors: SUBJECT_DETAILS
+    subject_race: SUBJECT_RACE
+police_csv_config:
+    skip_first_row: true
+    header_row_idx: 0
+    use_of_force_file: false
+    date_format: '%m/%d/%y %H:%M'
+    city: Boston
+    state: MA
