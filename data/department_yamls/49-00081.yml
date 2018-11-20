@@ -6,8 +6,8 @@ police_csv_columns:
     encounter_type:
     force_effective:
     incident_id: INCIDENT_UNIQUE_IDENTIFIER
-    incident_reason: INCIDENT_REASON
-    incident_reason_detailed: INCIDENT_REASON_DESCRIPTION
+    incident_reason: 
+    incident_reason_detailed: 
     latitude: LOCATION_LATITUDE
     longitude: LOCATION_LONGITUDE
     number_of_suspects:
@@ -35,6 +35,8 @@ police_csv_columns:
     subject_injuries_detail: 
     subject_race:
     subject_weapon_possessed:
+    suspected_crime_type: INCIDENT_REASON
+    suspected_crime_type_detailed: INCIDENT_REASON_DESCRIPTION
     type_of_force_used:
     weapon_or_tool_used:   
 police_csv_config:

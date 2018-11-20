@@ -1,4 +1,4 @@
-police_csv_columns:
+police_csv_columns:    
     address_or_intersection: Address
     charge_code:
     cross_street:
@@ -6,7 +6,7 @@ police_csv_columns:
     encounter_type:
     force_effective:
     incident_id: 'Case #'
-    incident_reason: 'Incident Type'
+    incident_reason:
     incident_reason_detailed:
     latitude: Lat
     longitude: Lon
@@ -21,7 +21,7 @@ police_csv_columns:
     officer_injuries_detail:
     officer_race: 'Officer Race'
     officer_yrs_experience: 'Officer Tenure'
-    reason_for_force:  
+    reason_for_force: 
     reason_for_force_detailed:
     search_conducted:
     search_conducted_person:
@@ -30,9 +30,12 @@ police_csv_columns:
     subject_age: 'Suspect Age'
     subject_death: 'Fatal'
     subject_gender: 'Suspect Gender'
+    subject_id:
     subject_injured: 'Suspect Hit'
+    subject_injuries_detail: 
     subject_race: 'Suspect Race'
     subject_weapon_possessed: "Suspect's Weapon"
+    suspected_crime_type: 'Incident Type'
     type_of_force_used:
     weapon_or_tool_used:   
 police_csv_config:

@@ -4,7 +4,7 @@ police_csv_columns:
     encounter_type: UNKNOWN_FIELD_TYPE
     incident_id: INCIDENT_UNIQUE_IDENTIFIER
     incident_reason: INCIDENT_REASON
-    incident_reason_detailed: INCIDENT_REASON.1
+    incident_reason_detailed: 
     officer_age: OFFICER_AGE
     officer_id: OFFICER_ID
     officer_race: OFFICER_RACE
@@ -13,6 +13,8 @@ police_csv_columns:
     subject_gender: SUBJECT_GENDER
     subject_priors: SUBJECT_DETAILS
     subject_race: SUBJECT_RACE
+    suspected_crime_type: INCIDENT_REASON.1
+    suspected_crime_type_detailed: 
 police_csv_config:
     skip_first_row: true
     header_row_idx: 0

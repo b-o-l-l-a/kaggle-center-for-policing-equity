@@ -1,15 +1,43 @@
 police_csv_columns:
+    address_or_intersection:
+    charge_code:
+    cross_street:
     date: INCIDENT_DATE
+    encounter_type:
+    force_effective:
     incident_id: INCIDENT_UNIQUE_IDENTIFIER
+    incident_reason:
+    incident_reason_detailed:
     latitude: LOCATION_LATITUDE
     longitude: LOCATION_LONGITUDE
+    number_of_suspects:
+    number_officers_involved:
+    officer_age:
+    officer_death:
+    officer_ethnicity:
+    officer_gender:
+    officer_id:
+    officer_injured:
+    officer_injuries_detail:
+    officer_race:
+    officer_yrs_experience:
     reason_for_force: REASON_FOR_FORCE
+    reason_for_force_detailed:
+    search_conducted:
+    search_conducted_person:
+    search_conducted_vehicle:
+    search_reason:
     subject_age: SUBJECT_AGE
+    subject_death:
     subject_gender: SUBJECT_GENDER
+    subject_id:
     subject_injured: SUBJECT_INJURY
+    subject_injuries_detail: 
     subject_race: SUBJECT_RACE
+    subject_weapon_possessed:
+    suspected_crime_type:
     type_of_force_used: TYPE_OF_FORCE_USED
-    weapon_or_tool_used: WEAPON_OR_TOOL_USED
+    weapon_or_tool_used: WEAPON_OR_TOOL_USED  
 police_csv_config:
     skip_first_row: true
     header_row_idx: 0

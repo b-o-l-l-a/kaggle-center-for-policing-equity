@@ -29,12 +29,15 @@ police_csv_columns:
     search_reason:
     subject_age:
     subject_death:
+    subject_description:
     subject_gender:
     subject_id:
     subject_injured:
     subject_injuries_detail: 
     subject_race:
     subject_weapon_possessed:
+    suspected_crime_type:
+    suspected_crime_type_detailed:
     type_of_force_used:
     weapon_or_tool_used:   
 police_csv_config:

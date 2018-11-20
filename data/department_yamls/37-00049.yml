@@ -7,7 +7,7 @@ police_csv_columns:
     force_effective:
     incident_id: 
     incident_reason: INCIDENT_REASON
-    incident_reason_detailed: SUBJECT_OFFENSE
+    incident_reason_detailed: 
     latitude: LOCATION_LATITUDE
     longitude: LOCATION_LONGITUDE
     number_of_suspects:
@@ -36,6 +36,7 @@ police_csv_columns:
     subject_injuries_detail: SUBJECT_INJURY_TYPE
     subject_race: SUBJECT_RACE
     subject_weapon_possessed:
+    suspected_crime_type: SUBJECT_OFFENSE
     type_of_force_used:
         - TYPE_OF_FORCE_USED1
         - TYPE_OF_FORCE_USED2
