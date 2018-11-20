@@ -16,7 +16,8 @@ def standardize_police_data(yaml_dir, police_dir, output_dir):
         dept = Department(dept_num, dept_yaml, police_dir)
         dept_stdized_df = dept.get_standardized_police_df()
         dept_stdized_df = dept.standardize_date_col(dept_stdized_df)
-        trimmed_output_df = trimmed_output_df.append(dept_stdized_df[0:100], ignore_index=True)
+        sample_size = 100 if len(dept_stdized_df) > 100 else len(dept_stdized_df)
+        trimmed_output_df = trimmed_output_df.append(dept_stdized_df.sample(n=sample_size), ignore_index=True)
         output_df = output_df.append(dept_stdized_df, ignore_index=True)
     
     output_path = os.path.join(output_dir, "step1_combined_police_data.csv")
